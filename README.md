@@ -1,9 +1,9 @@
 # roy-dingtalk-encrypt
 ## 2022-03-01 
-原项目的DingTalkEncryptor.js无法解密钉钉返回值，加密结果钉钉也无法识别，经常报900007和900008错误。
-问题根源是encrypt方法和decrypt方法，在加密和解密的算法中出了错误。
-本项目已修改DingTalkEncryptor.js，修改后的方法已通过钉钉“事件订阅”的success验证。
-Rreturn 'success' to DingTalk by in Event Subscription succeeded.
+- 原项目的DingTalkEncryptor.js无法解密钉钉返回值，加密结果钉钉也无法识别，经常报900007和900008错误。
+- 问题根源是encrypt方法和decrypt方法，在加密和解密的算法中出了错误。
+- 本项目已修改DingTalkEncryptor.js，修改后的方法已通过钉钉“事件订阅”的success验证。
+- Rreturn 'success' to DingTalk by in Event Subscription succeeded.
 
 # Usage
 ## this repository
@@ -65,7 +65,7 @@ Rreturn 'success' to DingTalk by in Event Subscription succeeded.
     title: '自测-1016',
     type: 'start',
     staffId: 'er5875',
-    url: 'https://aflow.dingtalk.com/dingtalk/mobile/homepage.htm',
+    url: 'https://github.com/DrRoyLiu/roy-dingtalk-encrypt',
     processCode: 'xxx',
   };
   // console.log(JSON.parse(JSON.stringify(testJson)));
