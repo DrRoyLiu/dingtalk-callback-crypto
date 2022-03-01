@@ -1,6 +1,6 @@
 {
   "name": "roy-dingtalk-encrypt",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "dingTalk Encrypt Nodejs Version. Rreturn 'success' to DingTalk by in Event Subscription succeeded.",
   "main": "index.js",
   "scripts": {
