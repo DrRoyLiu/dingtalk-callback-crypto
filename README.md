@@ -1,8 +1,9 @@
-# dingtalk-encrypt
-DingTalk Encrypt Node Version.  
-Refer to [Java version](https://github.com/opendingtalk/eapp-corp-project.git): 
-
-**Issues:** It's your turn!
+# roy-dingtalk-encrypt
+## 2022-03-01 
+原项目的DingTalkEncryptor.js无法解密钉钉返回值，加密结果钉钉也无法识别，经常报900007和900008错误。
+问题根源是encrypt方法和decrypt方法，在加密和解密的算法中出了错误。
+本项目已修改DingTalkEncryptor.js，修改后的方法已通过钉钉“事件订阅”的success验证。
+Rreturn 'success' to DingTalk by in Event Subscription succeeded.
 
 # Usage
 ## this repository
@@ -11,7 +12,7 @@ Refer to [Java version](https://github.com/opendingtalk/eapp-corp-project.git):
 - run 'EncryptTest.js' for main APIs.
 
 ## npm module
-- npm install --save dingtalk-encrypt
+- npm install --save roy-dingtalk-encrypt
 - use APIs as follows API Doc.
 
 # API Doc
@@ -82,3 +83,4 @@ Refer to [Java version](https://github.com/opendingtalk/eapp-corp-project.git):
 # Thanks To
 - [Authors of crypto-js](https://github.com/brix/crypto-js)
 - [Authors of eapp-corp-project](https://github.com/opendingtalk/eapp-corp-project)
+- [Authors of dingtalk-encrypt](https://github.com/elixirChain/dingtalk-encrypt)
