@@ -19,7 +19,7 @@
 - Need constants:
 > TOKEN - Random string for signature, unrestricted, such as "123456".  
   ENCODING_AES_KEY - Secret key for callback data, random 43 characters of [a-z, A-Z, 0-9].  
-  CORP_ID - DingTalk corpId from the [Official OA](https://oa.dingtalk.com).  
+  CORP_ID - DingTalk AppKey or corpId from the [Official OA](https://oa.dingtalk.com).  
 
 - Main APIs([Usage Example](https://open-doc.dingtalk.com/microapp/serverapi2/lo5n6i)):
   - getEncryptedMap
