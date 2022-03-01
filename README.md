@@ -2,8 +2,13 @@
 ## 2022-03-01 
 - 原项目的DingTalkEncryptor.js无法解密钉钉返回值，加密结果钉钉也无法识别，经常报900007和900008错误。
 - 问题根源是encrypt方法和decrypt方法，在加密和解密的算法中出了错误。
-- 本项目已修改DingTalkEncryptor.js，修改后的方法已通过钉钉“事件订阅”的success验证。
-- Rreturn 'success' to DingTalk by in Event Subscription succeeded.
+- 本项目已修改DingTalkEncryptor.js，修改后的方法已通过钉钉“事件订阅”验证。
+
+## 2022-03-01 (2)
+- 可以正常收到钉钉推送，并解密成功，但发现钉钉数据中的corpId有时不完整。
+- 修改了corpId的验证方法，返回的corpId与设置的corpId互相包含即可通过验证。
+- Sometimes the corpId from DingTalk is not complete.
+- Changed the validation method for corpId.
 
 # Usage
 ## this repository
