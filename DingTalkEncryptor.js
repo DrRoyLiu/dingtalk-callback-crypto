@@ -62,7 +62,7 @@ class DingTalkEncryptor {
     } catch (e) {
       throw new DingTalkEncryptException(900009);
     }
-    if (!this.corpId == corpId && corpId.startsWith(this.corpId) && this.corpId.startsWith(corpId)) {
+    if (!this.corpId == corpId && !corpId.startsWith(this.corpId) && !this.corpId.startsWith(corpId)) {
       throw new DingTalkEncryptException(900010);
     } else {
       return plainText;
