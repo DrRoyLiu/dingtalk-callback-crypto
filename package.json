@@ -1,5 +1,5 @@
 {
-  "name": "dingtalk-callback-crypto",
+  "name": "dingtalk-callback-crypto-node",
   "version": "1.0.0",
   "description": "Unofficial dingtalk-callback-crypto Nodejs Version.",
   "main": "index.js",
